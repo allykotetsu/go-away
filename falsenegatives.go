@@ -9,7 +9,5 @@ package goaway
 //
 // Note that there is a test that prevents words from being in both DefaultProfanities and DefaultFalseNegatives,
 var DefaultFalseNegatives = []string{
-	"asshole",
-	"dumbass", // ass -> bASS (FP) -> dumBASS
 	"nigger",
 }
